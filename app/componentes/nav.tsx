@@ -43,6 +43,18 @@ export default function Navbar() {
           >
             Envio
           </Link>
+          <Link
+            href="/paginas/clone"
+            className={linkClass("/paginas/clone")}
+          >
+            Clone
+          </Link>
+          <Link
+            href="/paginas/vercel"
+            className={linkClass("/paginas/vercel")}
+          >
+            Vercel
+          </Link>
         </div>
       </div>
     </nav>
